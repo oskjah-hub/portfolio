@@ -55,7 +55,7 @@ const AboutPage = () => {
             {/* SKILLS SCROLL SVG */}
           </div>
           {/* EXPERIENCE CONTAINER */}
-          <div className="flex flex-col gap-12 justify-center pb-48">
+          <div className="flex flex-col gap-12 justify-between pb-48">
             {/* EXP TITLE */}
             <h1 className="font-bold text-2xl">EXPERIENCE</h1>
             {/* EXPERIENCE LIST */}
@@ -80,7 +80,7 @@ const AboutPage = () => {
                   </div>
                 </div>
                 {/* CENTER */}
-                <div className="w-1/6">
+                <div className="w-1/6 flex justify-center items-center">
                   {/* LINE */}
                   <div className="w-1 h-full bg-gray-600 rounded relative">
                     {/* JOB NODE */}
@@ -95,7 +95,7 @@ const AboutPage = () => {
                 {/* LEFT */}
                 <div className="w-1/3"></div>
                 {/* CENTER */}
-                <div className="w-1/6">
+                <div className="w-1/6 flex justify-center items-center">
                   {/* LINE */}
                   <div className="w-1 h-full bg-gray-600 rounded relative">
                     {/* JOB NODE */}
@@ -105,7 +105,7 @@ const AboutPage = () => {
                 {/* RIGHT */}
                 <div className="w-1/3">
                   {/* JOB TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-e-lg">
                     Senior JavaScript Engineer
                   </div>
                   {/* JOB DESC */}
@@ -140,7 +140,7 @@ const AboutPage = () => {
                   </div>
                 </div>
                 {/* CENTER */}
-                <div className="w-1/6">
+                <div className="w-1/6 flex justify-center items-center">
                   {/* LINE */}
                   <div className="w-1 h-full bg-gray-600 rounded relative">
                     {/* JOB NODE */}
